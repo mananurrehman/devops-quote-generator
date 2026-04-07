@@ -31,6 +31,10 @@ Job 1: Run Tests (pytest)
 Job 2: Build & Push Docker Image to Docker Hub
 Job 3: Generate index.html → Deploy to GitHub Pages
 ```
+## Workflow Diagram of Whole Project
+
+![Workflow Diagram](static/uploads/Workflow%20Diagram.png)
+
 
 ## How to Run Locally
 
