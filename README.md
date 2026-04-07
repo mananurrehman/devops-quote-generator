@@ -49,4 +49,4 @@ pytest -v             # Runs all tests
 
 ## Live Demo
 
-Deployed via GitHub Pages: `https://<your-username>.github.io/devops-quote-generator`
+Deployed via GitHub Pages: `https://mananurrehman.github.io/devops-quote-generator`
