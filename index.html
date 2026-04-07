@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Quote Generator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 3rem;
+            max-width: 700px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .tag {
+            background: #00d4aa;
+            color: #0f2027;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding: 4px 14px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+        }
+        blockquote {
+            font-size: 1.5rem;
+            color: #ffffff;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+        cite {
+            color: #00d4aa;
+            font-size: 0.95rem;
+            font-style: normal;
+        }
+        .footer {
+            margin-top: 2.5rem;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="tag">DevOps Wisdom</span>
+        <blockquote>"If it hurts, do it more frequently, and bring the pain forward."</blockquote>
+        <cite>— Jez Humble</cite>
+        <p class="footer">Built with Python + GitHub Actions · Deployed via CI/CD</p>
+    </div>
+</body>
+</html>
